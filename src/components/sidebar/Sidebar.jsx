@@ -48,10 +48,12 @@ const Sidebar = () => {
                 Users
               </li>
             </Link>
+            <Link to="/products">
             <li>
               <Storefront />
               Products
             </li>
+            </Link>
             <li>
               <AttachMoney />
               Transactions
